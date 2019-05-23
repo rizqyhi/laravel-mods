@@ -1,0 +1,7 @@
+Route::get('/dummyroutes', [list]::class)->name('dummyRouteName.list');
+Route::post('/dummyroutes', [show]::class)->name('dummyRouteName.store');
+Route::get('/dummyroutes/create', [create]::class)->name('dummyRouteName.create');
+Route::get('/dummyroutes/{id}', [show]::class)->name('dummyRouteName.show');
+Route::get('/dummyroutes/edit/{id}', [edit]::class)->name('dummyRouteName.edit');
+Route::put('/dummyroutes/{id}', [update]::class)->name('dummyRouteName.update');
+Route::delete('/dummyroutes/{id}', [delete]::class)->name('dummyRouteName.delete');

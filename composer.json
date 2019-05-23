@@ -1,0 +1,26 @@
+{
+    "name": "rizqyhi/laravel-mods",
+    "description": "Generate module easily on Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rizqy Hidayat",
+            "email": "rizqy22@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/console": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rizqyhi\\LaravelMods\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rizqyhi\\LaravelMods\\ServiceProvider"
+            ]
+        }
+    }
+}
